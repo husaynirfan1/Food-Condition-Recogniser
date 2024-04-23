@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".FruitConditionResult">
+
+    <ImageView
+        android:id="@+id/fruitIcon"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_margin="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/fruitConditionTV"
+        app:layout_constraintTop_toBottomOf="@id/fruitIcon"
+        app:layout_constraintEnd_toEndOf="@id/fruitIcon"
+        app:layout_constraintStart_toStartOf="@id/fruitIcon"
+        android:text="TEXT"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/fruitNameTV"
+        app:layout_constraintTop_toBottomOf="@id/fruitConditionTV"
+        app:layout_constraintEnd_toEndOf="@id/fruitConditionTV"
+        app:layout_constraintStart_toStartOf="@id/fruitConditionTV"
+        android:text="TEXT"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/fruitCalorieTV"
+        app:layout_constraintTop_toBottomOf="@id/fruitNameTV"
+        app:layout_constraintEnd_toEndOf="@id/fruitNameTV"
+        app:layout_constraintStart_toStartOf="@id/fruitNameTV"
+        android:text="TEXT"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/accuracyTV"
+        app:layout_constraintTop_toBottomOf="@id/fruitCalorieTV"
+        app:layout_constraintEnd_toEndOf="@id/fruitCalorieTV"
+        app:layout_constraintStart_toStartOf="@id/fruitCalorieTV"
+        android:text="TEXT"
+        android:layout_margin="10dp"/>
+
+    <ImageView
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:background="@drawable/baseline_home_24"
+        android:backgroundTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="30dp"
+        android:id="@+id/homeBtn"/>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
