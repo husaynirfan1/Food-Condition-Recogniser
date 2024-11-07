@@ -15,6 +15,9 @@ Food condition recogniser app develop using TensorFlow Lite. It has confidence l
 
 Can easily be modified by adding more models of different fruits, and modified a bit of the code.
 
+## License
+Distributed under the MIT License. See LICENSE.txt for more information.
+
 ## Contact
 ![image](	https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)
 ![image](	https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)
